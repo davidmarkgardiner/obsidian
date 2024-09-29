@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git.md",
+                "file": "beststockstobuyseptember2024/output.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a8652c46dbab038",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mesh/Get Rich Before 2025.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git.md",
+                "file": "mesh/Get Rich Before 2025.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git.md",
+                "file": "mesh/Get Rich Before 2025.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git.md"
+                "file": "mesh/Get Rich Before 2025.md"
               }
             }
           },
@@ -178,12 +190,15 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "ff43f63aa5440294",
+  "active": "9a8652c46dbab038",
   "lastOpenFiles": [
+    "Get Rich Before 2025.md",
+    "mesh/Get Rich Before 2025.md",
+    "beststockstobuyseptember2024/output.md",
+    "customPatterns/stocks_buy_sell/system.md",
+    "git.md",
     "agility_story/Values report.md",
     "kanban boards.md",
-    "git.md",
-    "beststockstobuyseptember2024/output.md",
     "customPatterns/values_report/system.md",
     "obsidian/how to use.md",
     "mesh/create_pr.md",
@@ -199,7 +214,6 @@
     "PatternsCustom/devops_pattern",
     "PatternsCustom",
     "Patterns1/create_keynote.md",
-    "customPatterns/stocks_buy_sell/system.md",
     "customPatterns/values_report/user.md",
     "Patterns/values_report/user.md",
     "customPatterns/devops_pattern/system.md",
@@ -208,8 +222,6 @@
     "Patterns1/write_pull-request.md",
     "Patterns1/write_nuclei_template_rule.md",
     "Patterns1/write_micro_essay.md",
-    "Patterns1/write_latex.md",
-    "Patterns1/write_hackerone_report.md",
     "Patterns1",
     "Patterns/values_report",
     "customPatterns/values_report",
