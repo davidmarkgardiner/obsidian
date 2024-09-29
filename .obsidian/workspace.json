@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "aaafc8dfb2b8f88d",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd466a4570955633",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29f1157938cff4cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "agility_story/Values report.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff43f63aa5440294",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "69bb0f581caf18f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "64075406ff61797b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a01a479d138b7d1d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0255b357299dea05",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "01419cf7e3ea5a91",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 329.5
+  },
+  "right": {
+    "id": "b094f390c5e4f377",
+    "type": "split",
+    "children": [
+      {
+        "id": "68ed4f71190c0100",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8aeca2f5719f49b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a2274bb53b6aeba7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9aadee04770be21c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6c9c324dff541aa0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git.md"
+              }
+            }
+          },
+          {
+            "id": "83835c0f4b5cb4ea",
+            "type": "leaf",
+            "state": {
+              "type": "fabric-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "f59d84edcac3e8d6",
+            "type": "leaf",
+            "state": {
+              "type": "mesh-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "companion:Toggle completion": false,
+      "command-palette:Open command palette": false,
+      "mesh-ai:Mesh AI Integration": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "ff43f63aa5440294",
+  "lastOpenFiles": [
+    "agility_story/Values report.md",
+    "kanban boards.md",
+    "git.md",
+    "beststockstobuyseptember2024/output.md",
+    "customPatterns/values_report/system.md",
+    "obsidian/how to use.md",
+    "mesh/create_pr.md",
+    "investWeekly/plan.md",
+    "beststockstobuyseptember2024/2024-09-26- I&#39;mInvestingInThisHUGEAINetworkingBreakthroughHere&#39;sWhy .md",
+    "mesh/values.md",
+    "mesh/values (1).md",
+    "PatternsCustom/values_report/system.md",
+    "PatternsCustom/devops_pattern/system.md",
+    "PatternsCustom/stocks_buy_sell/system.md",
+    "PatternsCustom/values_report",
+    "PatternsCustom/stocks_buy_sell",
+    "PatternsCustom/devops_pattern",
+    "PatternsCustom",
+    "Patterns1/create_keynote.md",
+    "customPatterns/stocks_buy_sell/system.md",
+    "customPatterns/values_report/user.md",
+    "Patterns/values_report/user.md",
+    "customPatterns/devops_pattern/system.md",
+    "Patterns/values_report/system.md",
+    "Patterns1/write_semgrep_rule.md",
+    "Patterns1/write_pull-request.md",
+    "Patterns1/write_nuclei_template_rule.md",
+    "Patterns1/write_micro_essay.md",
+    "Patterns1/write_latex.md",
+    "Patterns1/write_hackerone_report.md",
+    "Patterns1",
+    "Patterns/values_report",
+    "customPatterns/values_report",
+    "customPatterns/agility_story",
+    "agility_story",
+    "obsidian"
+  ]
+}
