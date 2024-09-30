@@ -1,6 +1,7 @@
 plugins
 .plugins
 .obsidian
+.obsidian*
 .DS_Store
 community-plugins.json
 workspace.json
