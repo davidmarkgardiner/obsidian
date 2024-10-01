@@ -1,0 +1,39 @@
+```
+
+stages:
+- stage: ProcessKustomization
+  jobs:
+  - job: RunGoScript
+    steps:
+    - task: Go@0
+      inputs:
+        command: 'run'
+        scriptPath: 'payload.go'
+    - publish: $(System.DefaultWorkingDirectory)/payloads.json
+      artifact: kustomizationPayloads
+
+- stage: RBACRoleBinding
+  dependsOn: ProcessKustomization
+  jobs:
+  - job: ApplyRBAC
+    steps:
+    - download: current
+      artifact: kustomizationPayloads
+    - task: Bash@3
+      inputs:
+        targetType: 'inline'
+        script: |
+          # Read the JSON file
+          payloads=$(cat $(Pipeline.Workspace)/kustomizationPayloads/payloads.json)
+          
+          # Iterate over each payload
+          echo "$payloads" | jq -c '.[]' | while read payload; do
+            aksresourceid=$(echo $payload | jq -r '.aksresourceid')
+            openvironment=$(echo $payload | jq -r '.openvironment')
+            namespacename=$(echo $payload | jq -r '.namespacename')
+            
+            echo "Processing - AKS Resource ID: $aksresourceid, Open Environment: $openvironment, Namespace Name: $namespacename"
+            
+
+          done
+```

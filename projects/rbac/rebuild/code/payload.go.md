@@ -3,8 +3,8 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
@@ -15,17 +15,24 @@ import (
 type Kustomization struct {
 	CommonLabels struct {
 		OpEnvironment string `yaml:"opEnvironment"`
-		Action        string `yaml:"action"`
 	} `yaml:"commonLabels"`
 	CommonAnnotations struct {
-		AksResourceID     string `yaml:"aksresourceid"`
-		FullNamespaceName string `yaml:"fullnamespacename"`
+		AksClusterResourceId string `yaml:"aksClusterResourceId"`
+		FullNamespaceName    string `yaml:"fullNamespaceName"`
 	} `yaml:"commonAnnotations"`
+}
+
+type Payload struct {
+	AksResourceId  string `json:"aksresourceid"`
+	OpenEnvironment string `json:"openvironment"`
+	NamespaceName   string `json:"namespacename"`
 }
 
 func main() {
 	// Base directory
 	baseDir := "environment"
+
+	var payloads []Payload
 
 	// Walk through the directory structure
 	err := filepath.Walk(baseDir, func(path string, info os.FileInfo, err error) error {
@@ -38,49 +45,69 @@ func main() {
 			return nil
 		}
 
-		// Read and parse the kustomization.yaml file
-		data, err := ioutil.ReadFile(path)
+		// Process each kustomization.yaml file
+		payload, err := processKustomizationFile(path)
 		if err != nil {
-			log.Printf("Error reading file %s: %v", path, err)
+			log.Printf("Error processing file %s: %v", path, err)
 			return nil
 		}
 
-		var kustomization Kustomization
-		err = yaml.Unmarshal(data, &kustomization)
-		if err != nil {
-			log.Printf("Error unmarshaling YAML in file %s: %v", path, err)
-			return nil
-		}
-
-		// Check if the file should be skipped
-		if kustomization.CommonLabels.Action == "remove" {
-			log.Printf("Skipping file %s due to 'action: remove' label", path)
-			return nil
-		}
-
-		// Extract required information
-		openEnvironment := kustomization.CommonLabels.OpEnvironment
-		aksResourceID := kustomization.CommonAnnotations.AksResourceID
-		fullNamespaceName := kustomization.CommonAnnotations.FullNamespaceName
-
-		// Prepare and send payload
-		payload := map[string]string{
-			"aksresourceid":  aksResourceID,
-			"openvironment":  openEnvironment,
-			"namespacename":  fullNamespaceName,
-		}
-
-		sendPayloadToPipeline(payload)
-
+		payloads = append(payloads, payload)
 		return nil
 	})
 
 	if err != nil {
 		log.Fatalf("Error walking through directory: %v", err)
 	}
+
+	// Write payloads to JSON file
+	outputFile := "payloads.json"
+	err = writePayloadsToFile(payloads, outputFile)
+	if err != nil {
+		log.Fatalf("Error writing payloads to file: %v", err)
+	}
+
+	fmt.Printf("Processed %d kustomization files. Output written to %s\n", len(payloads), outputFile)
 }
 
-func sendPayloadToPipeline(payload map[string]string) {
-	// This is a placeholder function. Implement the actual logic to send the payload to your pipeline.
-	fmt.Printf("Sending payload to pipeline: %v\n", payload)
+func processKustomizationFile(path string) (Payload, error) {
+	// Read and parse the kustomization.yaml file
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return Payload{}, fmt.Errorf("error reading file: %v", err)
+	}
+
+	var kustomization Kustomization
+	err = yaml.Unmarshal(data, &kustomization)
+	if err != nil {
+		return Payload{}, fmt.Errorf("error unmarshaling YAML: %v", err)
+	}
+
+	// Extract required information
+	payload := Payload{
+		AksResourceId:   kustomization.CommonAnnotations.AksClusterResourceId,
+		OpenEnvironment: kustomization.CommonLabels.OpEnvironment,
+		NamespaceName:   kustomization.CommonAnnotations.FullNamespaceName,
+	}
+
+	log.Printf("Processed file %s - aksresourceid: %s, openvironment: %s, namespacename: %s", 
+		path, payload.AksResourceId, payload.OpenEnvironment, payload.NamespaceName)
+
+	return payload, nil
+}
+
+func writePayloadsToFile(payloads []Payload, filename string) error {
+	file, err := os.Create(filename)
+	if err != nil {
+		return fmt.Errorf("error creating file: %v", err)
+	}
+	defer file.Close()
+
+	encoder := json.NewEncoder(file)
+	encoder.SetIndent("", "  ") // Pretty print the JSON
+	if err := encoder.Encode(payloads); err != nil {
+		return fmt.Errorf("error encoding JSON: %v", err)
+	}
+
+	return nil
 }
