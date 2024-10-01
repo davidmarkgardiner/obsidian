@@ -10,14 +10,25 @@ lookyino salary sacrafice depeding what happens with full time?
 
 poet
 nvidia
-smci
-tesla
 apple 
 ppc consumer staples
 synchrony finacials 
+vertiv holdings vrt
+
+google
+msft 
+
+smci
+tesla
 ### used/ remaining
 
-check why limit not used?
+check why limit not used? - its new year :-)
+	remove subscriptions not being unitises
+motley fool
+peleton
+??
+
+see ptk bought in error
 
 
 
