@@ -1,5 +1,3 @@
-```go
-
 package main
 
 import (
@@ -23,41 +21,47 @@ type Kustomization struct {
 }
 
 type Payload struct {
-	AksResourceId  string `json:"aksresourceid"`
+	AksResourceId   string `json:"aksresourceid"`
 	OpenEnvironment string `json:"openvironment"`
 	NamespaceName   string `json:"namespacename"`
 }
 
 func main() {
+	// Get region and clustername from environment variables
+	region := os.Getenv("REGION")
+	clusterName := os.Getenv("CLUSTER_NAME")
+
+	if region == "" || clusterName == "" {
+		log.Fatal("REGION and CLUSTER_NAME environment variables must be set")
+	}
+
 	// Base directory
-	baseDir := "environment"
+	baseDir := filepath.Join("environment", region, clusterName)
 
 	var payloads []Payload
 
-	// Walk through the directory structure
-	err := filepath.Walk(baseDir, func(path string, info os.FileInfo, err error) error {
-		if err != nil {
-			return err
-		}
-
-		// Check if the file is kustomization.yaml
-		if info.IsDir() || filepath.Base(path) != "kustomization.yaml" {
-			return nil
-		}
-
-		// Process each kustomization.yaml file
-		payload, err := processKustomizationFile(path)
-		if err != nil {
-			log.Printf("Error processing file %s: %v", path, err)
-			return nil
-		}
-
-		payloads = append(payloads, payload)
-		return nil
-	})
-
+	// Read immediate subdirectories
+	entries, err := os.ReadDir(baseDir)
 	if err != nil {
-		log.Fatalf("Error walking through directory: %v", err)
+		log.Fatalf("Error reading base directory: %v", err)
+	}
+
+	for _, entry := range entries {
+		if entry.IsDir() {
+			subDir := filepath.Join(baseDir, entry.Name())
+			kustomizationPath := filepath.Join(subDir, "kustomization.yaml")
+
+			// Check if kustomization.yaml exists in the subdirectory
+			if _, err := os.Stat(kustomizationPath); err == nil {
+				// Process the kustomization.yaml file
+				payload, err := processKustomizationFile(kustomizationPath)
+				if err != nil {
+					log.Printf("Error processing file %s: %v", kustomizationPath, err)
+					continue
+				}
+				payloads = append(payloads, payload)
+			}
+		}
 	}
 
 	// Write payloads to JSON file

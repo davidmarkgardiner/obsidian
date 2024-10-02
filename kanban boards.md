@@ -21,9 +21,6 @@ kanban-plugin: board
 - [ ] gitlab auth + terraform
 - [ ] self host gitea or move to gitlab?
 - [ ] rebalance portfolio when? how?
-- [ ] nakedwines? emailed
-- [ ] best invest call on 02071899999
-- [ ] netflix, youtube
 
 
 ## in progress

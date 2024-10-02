@@ -35,11 +35,17 @@
             "id": "9a8652c46dbab038",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "agility_story/values2.md",
-                "mode": "source",
-                "source": false
+                "file": "kanban boards.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
               }
             }
           }
@@ -94,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 604.5
   },
   "right": {
     "id": "b094f390c5e4f377",
@@ -110,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "agility_story/values2.md",
+                "file": "kanban boards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "agility_story/values2.md",
+                "file": "kanban boards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "agility_story/values2.md"
+                "file": "kanban boards.md"
               }
             }
           },
@@ -179,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -199,43 +205,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff936fcc5554b2aa",
+  "active": "9a8652c46dbab038",
   "lastOpenFiles": [
-    "Untitled.md",
-    "agility_story/values2.md",
+    "projects/rbac/rebuild/code/pay.go",
+    "stocks/\"Biggest Undervalued Stock\" Billionaires Are Betting Big On This Stock Before It Takes Off Next Week.md",
+    "stocks/Billionaire Leon Cooperman Betting Big On 3 Stocks To Be Worth Trillions Get In Now To Make Millions.md",
+    "stocks/Buy The SMCI Dip Before The 10-1 Stock Split  Super Micro Computer Stock Analysis.md",
+    "stocks/Get Rich Before 2025.md",
+    "stocks/Getting Rich Is Easy, Howard Marks Shares His Golden Strategy To Become Millionaire By 2025.md",
+    "stocks/I'm Buying These 3 Stocks to Get Rich.md",
+    "stocks/Raoul Pal This God Sent Opportunity Will Make Millionaires Out Of Everyone Who Owns It Get In Now.md",
+    "stocks/Tavily SMCI.md",
+    "mesh/Mr Market Loves These 10 Stocks to Buy Now.md",
+    "stocks/youtube.md",
+    "stocks/october2024/Top 5 Stocks To Buy October 2024 (High Growth).md",
+    "stocks/october2024/Stocks I'm Buying in the Coming CHAOS | October 2024.md",
+    "stocks/october2024/5 Stocks to Buy Now‼️ October 2024.md",
+    "stocks/september2024/\"Biggest Undervalued Stock\" Billionaires Are Betting Big On This Stock Before It Takes Off Next Week.md",
+    "stocks/october2024",
+    "stocks/september2024",
+    "stocks/september2024/Tavily SMCI.md",
+    "stocks/september2024/Raoul Pal This God Sent Opportunity Will Make Millionaires Out Of Everyone Who Owns It Get In Now.md",
+    "stocks/september2024/I'm Buying These 3 Stocks to Get Rich.md",
+    "stocks/september2024/Getting Rich Is Easy, Howard Marks Shares His Golden Strategy To Become Millionaire By 2025.md",
+    "stocks/september2024/Get Rich Before 2025.md",
+    "stocks/september2024/Buy The SMCI Dip Before The 10-1 Stock Split  Super Micro Computer Stock Analysis.md",
+    "stocks/september2024/Billionaire Leon Cooperman Betting Big On 3 Stocks To Be Worth Trillions Get In Now To Make Millions.md",
+    "investWeekly/plan.md",
+    "projects/rbac/rebuild/code/Outline.md",
+    "projects/rbac/rebuild/code/payload.go.md",
+    "projects/rbac/rebuild/todo.md",
     "Untitled",
-    "agility_story/values_report2.md",
-    "agility_story/Values report.md",
-    "git.md",
-    "mesh/Get Rich Before 2025.md",
-    "mesh/create_pr.md",
-    "Patterns/devops_pattern.md",
-    "Patterns/stocks_buy_sell.md",
-    "Patterns/values_report.md",
-    "customPatterns/devops_pattern.md",
-    "customPatterns/stocks_buy_sell.md",
-    "customPatterns/values_report.md",
-    "Patterns/analyze_answers.md",
-    "Patterns/create_ai_jobs_analysis/system.md",
-    "customPatterns/devops_pattern/devops_pattern.md",
-    "Patterns/suggest_pattern.md",
-    "Patterns/explain_code.md",
-    "Patterns/create_command.md",
-    "Patterns/analyze_personality.md",
-    "Patterns/analyze_incident.md",
-    "Patterns/write_pull-request/system.md",
     "diff.txt",
-    "Patterns/write_essay/system.md",
-    "Patterns/values_report/system.md",
-    "Patterns/analyze_answers/system.md",
-    "Get Rich Before 2025.md",
     "PatternsCustom/values_report",
     "PatternsCustom/stocks_buy_sell",
     "PatternsCustom/devops_pattern",
     "PatternsCustom",
     "Patterns1",
-    "Patterns/values_report",
-    "customPatterns/values_report",
-    "customPatterns/agility_story"
+    "Patterns/values_report"
   ]
 }
