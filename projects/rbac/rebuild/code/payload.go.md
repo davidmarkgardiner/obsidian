@@ -23,14 +23,22 @@ type Kustomization struct {
 }
 
 type Payload struct {
-	AksResourceId  string `json:"aksresourceid"`
+	AksResourceId   string `json:"aksresourceid"`
 	OpenEnvironment string `json:"openvironment"`
 	NamespaceName   string `json:"namespacename"`
 }
 
 func main() {
+	// Get region and clustername from environment variables
+	region := os.Getenv("REGION")
+	clusterName := os.Getenv("CLUSTER_NAME")
+
+	if region == "" || clusterName == "" {
+		log.Fatal("REGION and CLUSTER_NAME environment variables must be set")
+	}
+
 	// Base directory
-	baseDir := "environment"
+	baseDir := filepath.Join("environment", region, clusterName)
 
 	var payloads []Payload
 
