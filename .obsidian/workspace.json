@@ -48,9 +48,27 @@
                 }
               }
             }
+          },
+          {
+            "id": "9c6f3c9eff250fc3",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "kanban boards.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "paul",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,8 +223,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a8652c46dbab038",
+  "active": "9c6f3c9eff250fc3",
   "lastOpenFiles": [
+    "mesh/egress (2).md",
+    "kanban boards.md",
+    "Untitled.md",
+    "git.md",
+    "projects/rbac/rebuild/code/payload.go.md",
+    "projects/rbac/rebuild/code/Outline.md",
     "projects/rbac/rebuild/code/pay.go",
     "stocks/\"Biggest Undervalued Stock\" Billionaires Are Betting Big On This Stock Before It Takes Off Next Week.md",
     "stocks/Billionaire Leon Cooperman Betting Big On 3 Stocks To Be Worth Trillions Get In Now To Make Millions.md",
@@ -230,18 +254,12 @@
     "stocks/september2024/Getting Rich Is Easy, Howard Marks Shares His Golden Strategy To Become Millionaire By 2025.md",
     "stocks/september2024/Get Rich Before 2025.md",
     "stocks/september2024/Buy The SMCI Dip Before The 10-1 Stock Split  Super Micro Computer Stock Analysis.md",
-    "stocks/september2024/Billionaire Leon Cooperman Betting Big On 3 Stocks To Be Worth Trillions Get In Now To Make Millions.md",
-    "investWeekly/plan.md",
-    "projects/rbac/rebuild/code/Outline.md",
-    "projects/rbac/rebuild/code/payload.go.md",
-    "projects/rbac/rebuild/todo.md",
     "Untitled",
     "diff.txt",
     "PatternsCustom/values_report",
     "PatternsCustom/stocks_buy_sell",
     "PatternsCustom/devops_pattern",
     "PatternsCustom",
-    "Patterns1",
-    "Patterns/values_report"
+    "Patterns1"
   ]
 }

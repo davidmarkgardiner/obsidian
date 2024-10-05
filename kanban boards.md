@@ -21,6 +21,9 @@ kanban-plugin: board
 - [ ] gitlab auth + terraform
 - [ ] self host gitea or move to gitlab?
 - [ ] rebalance portfolio when? how?
+- [ ] paul 50 left
+	
+	300 -110 - 140 owed from september
 
 
 ## in progress
