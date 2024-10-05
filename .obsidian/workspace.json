@@ -47,17 +47,11 @@
             "id": "7348a74e84f9c6d7",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "kanban boards.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "mesh/create_pr.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -128,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban boards.md",
+                "file": "mesh/create_pr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban boards.md",
+                "file": "mesh/create_pr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban boards.md"
+                "file": "mesh/create_pr.md"
               }
             }
           },
@@ -197,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -217,8 +211,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff936fcc5554b2aa",
+  "active": "7348a74e84f9c6d7",
   "lastOpenFiles": [
+    "mesh/Master Terminal Multiplexing with Zellij in Minutes!.md",
+    "stocks/youtube.md",
+    "mesh/issue.md",
+    "kanban boards.md",
     "projects/rbac/rebuild/code/pipe.yml",
     "projects/rbac/rebuild/code/pay.go",
     "projects/k8s/gitea/readme.md",
@@ -226,9 +224,7 @@
     "projects/k8s/renovate/readme.md",
     "projects/k8s/renovate",
     "stocks/Raoul Pal This God Sent Opportunity Will Make Millionaires Out Of Everyone Who Owns It Get In Now.md",
-    "stocks/youtube.md",
     "stocks/Getting Rich Is Easy, Howard Marks Shares His Golden Strategy To Become Millionaire By 2025.md",
-    "kanban boards.md",
     "git.md",
     "projects/k8s/authelia/readme.md",
     "projects/k8s/authelia",
@@ -244,7 +240,6 @@
     "stocks/\"Biggest Undervalued Stock\" Billionaires Are Betting Big On This Stock Before It Takes Off Next Week.md",
     "stocks/Tavily SMCI.md",
     "stocks/Buy The SMCI Dip Before The 10-1 Stock Split  Super Micro Computer Stock Analysis.md",
-    "mesh/issue.md",
     "mesh/create_pr.md",
     "mesh/egress (1).md",
     "mesh/egress.md",
@@ -253,7 +248,6 @@
     "beststockstobuyseptember2024/output.md",
     "stocks",
     "agility_story/values2.md",
-    "projects/rbac/rebuild/code",
-    "projects/rbac/rebuild"
+    "projects/rbac/rebuild/code"
   ]
 }
