@@ -6,3 +6,5 @@ plugins
 community-plugins.json
 .workspace.json
 workspace.*
+.obsidian/workspace.json
+.obsidian/plugins/*
