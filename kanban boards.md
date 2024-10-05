@@ -8,7 +8,6 @@ kanban-plugin: board
 
 - [ ] automate workflows
 - [ ] investments
-- [ ] home assistant
 - [ ] backup proxmox/ k8s data
 - [ ] jekll blog site
 - [ ] tiles
@@ -21,13 +20,21 @@ kanban-plugin: board
 - [ ] gitlab auth + terraform
 - [ ] self host gitea or move to gitlab?
 - [ ] rebalance portfolio when? how?
+<<<<<<< HEAD
 - [ ] paul 50 left
 	
 	300 -110 - 140 owed from september
+=======
+- [ ] we should have folder on each stock and setup alerts via google
+- [ ] bets data sources can we automate getting weekly reports on stock
+>>>>>>> 59b2a7b (Update YouTube link and add next steps for k8s and gitea)
 
 
 ## in progress
 
+- [ ] home assistant
+- [ ] crewai build python agents
+- [ ] how to use tivily
 
 
 ## done

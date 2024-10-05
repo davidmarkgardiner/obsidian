@@ -55,6 +55,42 @@
             "state": {
               "type": "kanban",
               "state": {
+<<<<<<< HEAD
+                "file": "kanban boards.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+=======
+                "file": "stocks/october24/5 Undervalued Stocks to Buy in October 2024.md",
+                "mode": "source",
+                "source": false
+>>>>>>> 59b2a7b (Update YouTube link and add next steps for k8s and gitea)
+              }
+            }
+          },
+          {
+            "id": "b36dac2441c4eba8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "stocks/october24/Top 3 AI Stocks To Buy Now.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85de64dd73533e48",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
                 "file": "kanban boards.md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
@@ -68,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -223,6 +259,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
+<<<<<<< HEAD
   "active": "9c6f3c9eff250fc3",
   "lastOpenFiles": [
     "mesh/Master Terminal Multiplexing with Zellij in Minutes!.md",
@@ -261,5 +298,45 @@
     "PatternsCustom/devops_pattern",
     "PatternsCustom",
     "Patterns1"
+=======
+  "active": "85de64dd73533e48",
+  "lastOpenFiles": [
+    "stocks/october24/TSLA Stock Analysis.md",
+    "stocks/october24/Top 3 AI Stocks To Buy Now.md",
+    "stocks/october24/5 Undervalued Stocks to Buy in October 2024.md",
+    "stocks/youtube.md",
+    "mesh/issue.md",
+    "stocks/october24/Top 2 Dirt Cheap Stocks To Buy Now For 10x Returns In 1 Year.md",
+    "stocks/september24/Tavily SMCI.md",
+    "stocks/september24/\"Biggest Undervalued Stock\" Billionaires Are Betting Big On This Stock Before It Takes Off Next Week.md",
+    "stocks/september24",
+    "stocks/october24",
+    "obsidian/how to use.md",
+    "investWeekly/plan.md",
+    "mesh/egress (1).md",
+    "mesh/egress.md",
+    "mesh/create_pr.md",
+    "techDocs/Master Terminal Multiplexing with Zellij in Minutes!.md",
+    "techDocs/My Secret Plan to Get Rich Without Getting Lucky.md",
+    "techDocs",
+    "projects/k8s/renovate/readme.md",
+    "projects/k8s/home-assistant/readme.md",
+    "projects/k8s/gitlab/readme.md",
+    "projects/k8s/gitea/readme.md.md",
+    "kanban boards.md",
+    "projects/rbac/rebuild/code/pipe.yml",
+    "projects/rbac/rebuild/code/pay.go",
+    "projects/k8s/gitea",
+    "projects/k8s/renovate",
+    "stocks/september24/Raoul Pal This God Sent Opportunity Will Make Millionaires Out Of Everyone Who Owns It Get In Now.md",
+    "stocks/september24/Getting Rich Is Easy, Howard Marks Shares His Golden Strategy To Become Millionaire By 2025.md",
+    "git.md",
+    "projects/k8s/authelia/readme.md",
+    "projects/k8s/authelia",
+    "projects/k8s/gitlab",
+    "projects/k8s/home-assistant",
+    "stocks/september24/Get Rich Before 2025.md",
+    "stocks/september24/I'm Buying These 3 Stocks to Get Rich.md"
+>>>>>>> 59b2a7b (Update YouTube link and add next steps for k8s and gitea)
   ]
 }

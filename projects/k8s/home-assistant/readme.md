@@ -21,3 +21,5 @@
 - https://jaygould.co.uk/2024-01-01-setting-up-home-assistant-kubernetes-k3s/
 - https://github.com/jaygould/home-assistant/tree/e1262e6a42d1f00e6ef018a49b2993a5c21a24ff
 
+## next steps
+where should I install / k8s / proxmox/ zigbee?
