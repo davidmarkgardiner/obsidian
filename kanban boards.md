@@ -20,19 +20,20 @@ kanban-plugin: board
 - [ ] gitlab auth + terraform
 - [ ] self host gitea or move to gitlab?
 - [ ] rebalance portfolio when? how?
-<<<<<<< HEAD
+	<<<<<<< HEAD
 - [ ] paul 50 left
 	
 	300 -110 - 140 owed from september
-=======
+	=======
 - [ ] we should have folder on each stock and setup alerts via google
 - [ ] bets data sources can we automate getting weekly reports on stock
->>>>>>> 59b2a7b (Update YouTube link and add next steps for k8s and gitea)
 
 
 ## in progress
 
 - [ ] home assistant
+	
+	we have set this up on k8s, will deploy again with zigbee in next home
 - [ ] crewai build python agents
 - [ ] how to use tivily
 
