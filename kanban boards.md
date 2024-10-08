@@ -25,6 +25,12 @@ kanban-plugin: board
 	
 	300 -110 - 140 owed from september
 	=======
+	
+	120
+	sent 30 thenn50
+	40
+	sent 15
+	25 left
 - [ ] we should have folder on each stock and setup alerts via google
 - [ ] bets data sources can we automate getting weekly reports on stock
 

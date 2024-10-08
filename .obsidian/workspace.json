@@ -48,63 +48,9 @@
                 }
               }
             }
-          },
-          {
-            "id": "9c6f3c9eff250fc3",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-<<<<<<< HEAD
-                "file": "kanban boards.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-=======
-                "file": "stocks/october24/5 Undervalued Stocks to Buy in October 2024.md",
-                "mode": "source",
-                "source": false
->>>>>>> 59b2a7b (Update YouTube link and add next steps for k8s and gitea)
-              }
-            }
-          },
-          {
-            "id": "b36dac2441c4eba8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "stocks/october24/Top 3 AI Stocks To Buy Now.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85de64dd73533e48",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "kanban boards.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -239,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -247,96 +193,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "companion:Toggle completion": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "companion:Toggle completion": false,
-      "command-palette:Open command palette": false,
       "mesh-ai:Mesh AI Integration": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "9c6f3c9eff250fc3",
+  "active": "9a8652c46dbab038",
   "lastOpenFiles": [
-    "mesh/Master Terminal Multiplexing with Zellij in Minutes!.md",
-    "mesh/egress (2).md",
-    "kanban boards.md",
-    "Untitled.md",
-    "git.md",
+    "mesh/Workflow Output 2024-10-08T11-11-01.076Z.md",
+    "projects/rbac/automate-pull-request/agent.md",
+    "projects/rbac/automate-pull-request/user-story.md",
+    "mesh/create_pr.md",
+    "projects/rbac/rebuild/todo.md",
+    "projects/rbac/automate-pull-request",
     "projects/rbac/rebuild/code/payload.go.md",
     "projects/rbac/rebuild/code/Outline.md",
-    "projects/rbac/rebuild/code/pay.go",
-    "stocks/\"Biggest Undervalued Stock\" Billionaires Are Betting Big On This Stock Before It Takes Off Next Week.md",
-    "stocks/Billionaire Leon Cooperman Betting Big On 3 Stocks To Be Worth Trillions Get In Now To Make Millions.md",
-    "stocks/Buy The SMCI Dip Before The 10-1 Stock Split  Super Micro Computer Stock Analysis.md",
-    "stocks/Get Rich Before 2025.md",
-    "stocks/Getting Rich Is Easy, Howard Marks Shares His Golden Strategy To Become Millionaire By 2025.md",
-    "stocks/I'm Buying These 3 Stocks to Get Rich.md",
-    "stocks/Raoul Pal This God Sent Opportunity Will Make Millionaires Out Of Everyone Who Owns It Get In Now.md",
-    "stocks/Tavily SMCI.md",
-    "mesh/Mr Market Loves These 10 Stocks to Buy Now.md",
-    "stocks/youtube.md",
-    "stocks/october2024/Top 5 Stocks To Buy October 2024 (High Growth).md",
-    "stocks/october2024/Stocks I'm Buying in the Coming CHAOS | October 2024.md",
-    "stocks/october2024/5 Stocks to Buy Now‼️ October 2024.md",
-    "stocks/september2024/\"Biggest Undervalued Stock\" Billionaires Are Betting Big On This Stock Before It Takes Off Next Week.md",
-    "stocks/october2024",
-    "stocks/september2024",
-    "stocks/september2024/Tavily SMCI.md",
-    "stocks/september2024/Raoul Pal This God Sent Opportunity Will Make Millionaires Out Of Everyone Who Owns It Get In Now.md",
-    "stocks/september2024/I'm Buying These 3 Stocks to Get Rich.md",
-    "stocks/september2024/Getting Rich Is Easy, Howard Marks Shares His Golden Strategy To Become Millionaire By 2025.md",
-    "stocks/september2024/Get Rich Before 2025.md",
-    "Untitled",
-    "diff.txt",
-    "PatternsCustom/values_report",
-    "PatternsCustom/stocks_buy_sell",
-    "PatternsCustom/devops_pattern",
-    "PatternsCustom",
-    "Patterns1"
-=======
-  "active": "85de64dd73533e48",
-  "lastOpenFiles": [
-    "stocks/october24/TSLA Stock Analysis.md",
+    "mesh/aso.md",
+    "mesh/dagger.md",
+    "mesh/Workflow Output 2024-10-07T09-56-19.253Z.md",
+    "customPatterns/user_story.md",
+    "projects/rbac/kube-egress-gateway/user-story.md",
+    "agility_story/values2.md",
+    "agility_story/values_report2.md",
+    "agility_story/Values report.md",
+    "[.md",
+    "investWeekly/plan.md",
     "stocks/october24/Top 3 AI Stocks To Buy Now.md",
-    "stocks/october24/5 Undervalued Stocks to Buy in October 2024.md",
-    "stocks/youtube.md",
-    "mesh/issue.md",
     "stocks/october24/Top 2 Dirt Cheap Stocks To Buy Now For 10x Returns In 1 Year.md",
-    "stocks/september24/Tavily SMCI.md",
-    "stocks/september24/\"Biggest Undervalued Stock\" Billionaires Are Betting Big On This Stock Before It Takes Off Next Week.md",
+    "stocks/october24/5 Undervalued Stocks to Buy in October 2024.md",
+    "mesh/Workflow Output 2024-10-07T07-51-37.082Z.md",
+    "mesh/Workflow Output 2024-10-07T07-53-14.269Z.md",
+    "mesh/Workflow Output 2024-10-07T07-52-39.278Z.md",
+    "mesh/Workflow Output 2024-10-07T07-58-13.609Z.md",
+    "stocks/october24/TSLA Stock Analysis.md",
+    "mesh/Workflow Output 2024-10-07T07-54-44.157Z.md",
+    "techDocs",
     "stocks/september24",
     "stocks/october24",
-    "obsidian/how to use.md",
-    "investWeekly/plan.md",
-    "mesh/egress (1).md",
-    "mesh/egress.md",
-    "mesh/create_pr.md",
-    "techDocs/Master Terminal Multiplexing with Zellij in Minutes!.md",
-    "techDocs/My Secret Plan to Get Rich Without Getting Lucky.md",
-    "techDocs",
-    "projects/k8s/renovate/readme.md",
-    "projects/k8s/home-assistant/readme.md",
-    "projects/k8s/gitlab/readme.md",
-    "projects/k8s/gitea/readme.md.md",
-    "kanban boards.md",
-    "projects/rbac/rebuild/code/pipe.yml",
     "projects/rbac/rebuild/code/pay.go",
-    "projects/k8s/gitea",
-    "projects/k8s/renovate",
-    "stocks/september24/Raoul Pal This God Sent Opportunity Will Make Millionaires Out Of Everyone Who Owns It Get In Now.md",
-    "stocks/september24/Getting Rich Is Easy, Howard Marks Shares His Golden Strategy To Become Millionaire By 2025.md",
-    "git.md",
-    "projects/k8s/authelia/readme.md",
-    "projects/k8s/authelia",
-    "projects/k8s/gitlab",
-    "projects/k8s/home-assistant",
-    "stocks/september24/Get Rich Before 2025.md",
-    "stocks/september24/I'm Buying These 3 Stocks to Get Rich.md"
->>>>>>> 59b2a7b (Update YouTube link and add next steps for k8s and gitea)
+    "stocks/october2024",
+    "stocks/september2024",
+    "Untitled",
+    "diff.txt",
+    "PatternsCustom/values_report"
   ]
 }

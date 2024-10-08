@@ -14,9 +14,14 @@ apple
 ppc consumer staples
 synchrony finacials 
 vertiv holdings vrt
-
 google
 msft 
+celestica - CLS
+
+tesla
+palantir
+
+
 
 smci
 tesla
